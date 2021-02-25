@@ -1,7 +1,7 @@
 # Get subscription ID
 #$subcriptionId = Get-AzSubscription | where-object {$_.Name -like "Primary*"} | Select-Object -Property Id
 
-$inputFile = Import-Csv .\CreateGroups.csv
+$inputFile = Import-Csv .\CreateADGroupForApp.csv
 
 foreach ($line in $inputFile)
 {

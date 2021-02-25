@@ -1,7 +1,7 @@
 # Get subscription ID
 #$subcriptionId = Get-AzSubscription | where-object {$_.Name -like "Primary*"} | Select-Object -Property Id
 $resourceGroupName = "DEV_LAB"
-$inputFile = Import-Csv .\AddRolesToADGroups.csv
+$inputFile = Import-Csv .\AddAppRolesToADGroup.csv
 
 foreach ($line in $inputFile)
 {
