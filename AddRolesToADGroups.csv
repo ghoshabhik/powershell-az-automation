@@ -1,0 +1,3 @@
+group_name,app_name,role_type
+readergroup,VMTEST,Reader
+contributergroup,VMTEST,Contributor
