@@ -1,0 +1,2 @@
+readergroup,tenentanalyst@abhikghosh84outlook.onmicrosoft.com
+contributorgroup,tenentadmin@abhikghosh84outlook.onmicrosoft.com
